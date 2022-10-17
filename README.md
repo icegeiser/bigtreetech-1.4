@@ -36,12 +36,12 @@ PLACA ORIGINAL CLIEVER CL1 BL.ED.
 
 </pre>
 
-BTT 1.4turbo utiliza o processador LC1769.
+BTT 1.4 utiliza o processador LC1768.
 - Modificar isso em Marlin\src\core\boards.h
 Adicionar o processador em: Marlin\Configuration.h - Seção Motherboard
 
 
-Pinos do processador: Marlin\src\pins\lpc1769\pins_BTT_SKR_V1_4_TURBO.h
+Pinos do processador: Marlin\src\pins\lpc1768\pins_BTT_SKR_V1_4.h
 
 
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
