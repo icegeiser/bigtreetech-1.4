@@ -2,13 +2,13 @@
 # impressoras a cama inicia imprimindo do alto para baixo.
 # Prusa Slicer
 
-AlturaEixoZ = 107  # Altura em mm.
+AlturaEixoZ = 107.5  # Altura em mm.
 
 
 
-with open('outputGCode.gcode', 'a') as fileOutput:
+with open('outputPlus2SpacesChanged.gcode', 'a') as fileOutput:
 
-    fileInput = open('FangLeFurieux-Original.gcode', 'r')
+    fileInput = open('outputPlus2Spaces.gcode', 'r')
     Lines = fileInput.readlines()
   
     count = 0
@@ -25,7 +25,7 @@ with open('outputGCode.gcode', 'a') as fileOutput:
             x1 = line[6:]
             x2 = x1[:5]
 
-            #print(x2)
+            print(x2)
 
             try:
                 AlturaMesaAtual = float(x2)
