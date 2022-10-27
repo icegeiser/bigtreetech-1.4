@@ -2,7 +2,7 @@
 
 with open('outputPlus2Spaces.gcode', 'a') as fileOutput:
 
-    fileInput = open('teste3.gcode', 'r')
+    fileInput = open('motog60_v3.gcode', 'r')
     Lines = fileInput.readlines()
   
     count = 0
