@@ -2,13 +2,25 @@
 # impressoras a cama inicia imprimindo do alto para baixo.
 # Cura Slicer
 
+# Primeiro argumento, arquivo de entrada
+# Segundo argumento, arquivo de saída
+
 import re
+import sys
+
+print('cmd entry:', sys.argv)
+
+InputFileName = sys.argv[1];
+OutputFileName = sys.argv[2]+'.gcode';
+
+print(InputFileName)
+print(OutputFileName)
 
 AlturaEixoZ = 107.5  # Altura em mm.
 
-with open('outputPrintCura.gcode', 'a') as fileOutput:
+with open(OutputFileName, 'a') as fileOutput:
 
-    fileInput = open('CFFFP_bulbasaur_starter_1gen_flowalistik.gcode', 'r')
+    fileInput = open(InputFileName, 'r')
     Lines = fileInput.readlines()
   
     count = 0
