@@ -16,3 +16,14 @@ Script python: GCodeRemove-TwoSpaces.py
 
 5 - Passar o arquivo de saída para a impressora.
 outputReadyPrint.gcode
+
+
+========================
+Tutorial para Cura:
+========================
+1 - Executar o script:
+
+ python .\GCode-Cura.py <Arquivo de entrada.gcode> <Arquivo de saida>
+
+ O Arquivo de entrada é gerado no Cura.
+ Arquivo de saida tera a extensão '.gcode' adicionada.

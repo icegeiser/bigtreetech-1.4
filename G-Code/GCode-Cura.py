@@ -16,7 +16,7 @@ OutputFileName = sys.argv[2]+'.gcode';
 print(InputFileName)
 print(OutputFileName)
 
-AlturaEixoZ = 107.5  # Altura em mm.
+AlturaEixoZ = 108  # Altura em mm.
 
 with open(OutputFileName, 'a') as fileOutput:
 
